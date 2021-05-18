@@ -1,0 +1,23 @@
+{
+  "name": "php/simdjson",
+  "description": "PHP FFI binding to simdjson library",
+  "license": "MIT",
+  "keywords": [
+    "json",
+    "simdjson",
+    "fast json"
+  ],
+  "authors": [
+    {
+      "name": "Scum and contributors"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Simdjson\\": "src/"
+    }
+  }
+}
